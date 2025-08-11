@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Date Header · SSENSE Style</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111111;
+    --accent: #000000;
+    --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font);
+  }
+  .date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .weekday {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  .day-number {
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .full-date {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+  <div class="date-container">
+    <div class="weekday">MONDAY</div>
+    <div class="day-number">11</div>
+    <div class="full-date">August 11, 2025</div>
+  </div>
+</body>
+</html>
